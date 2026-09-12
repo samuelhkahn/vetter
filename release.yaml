@@ -1,0 +1,19 @@
+models:
+  triage:
+    provider: openai
+    model: Qwen3.5-4B
+    base_url: http://localhost:8080/v1
+  vetter:
+    provider: openai
+    model: Qwen3.6-35B-A3B
+    base_url: http://localhost:8081/v1
+seed: 20260910
+real_bogus_cut:
+  drb_min: 0.5
+  isdiffpos: true
+  nbad_max: 0
+prompt_hashes: {}
+tool_schema_hash: ""
+astroalertbench:
+  hf_revision: ""
+  github_commit: ""
