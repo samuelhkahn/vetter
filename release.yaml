@@ -1,7 +1,7 @@
 models:
   triage:
     provider: openai
-    model: Qwen3.5-4B
+    model: mlx-community/Qwen2.5-0.5B-Instruct-4bit
     base_url: http://localhost:8080/v1
   vetter:
     provider: openai
