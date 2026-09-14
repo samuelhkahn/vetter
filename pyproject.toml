@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.28.1",
+    "langchain-ollama>=1.1.0",
     "mlx-lm>=0.31.3",
     "opentelemetry-api>=1.44.0",
     "opentelemetry-sdk>=1.44.0",
