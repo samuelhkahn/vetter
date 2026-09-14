@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_url": "https://ztf.uw.edu/alerts/public/ztf_public_20230220.tar.gz",
+  "observing_date": "2023-02-20",
+  "minimum_night_alerts": 213,
+  "threshold_rationale": "The smallest non-empty 2023 archive provides an empirical completeness floor: a night must contain at least its 213 readable alerts. This rejects empty placeholders and any smaller partial night without excluding this verified night.",
+  "archive": {
+    "path": "archives/ztf_public_20230220.tar.gz",
+    "byte_size": 9536867,
+    "sha256": "6ba2d4cd84a2287c80c7df8a6904146e96e887dadfa1cdbe62024cc4178317be"
+  },
+  "parquet": {
+    "path": "parquet/ztf_public_20230220.parquet",
+    "byte_size": 17204314,
+    "sha256": "4b9a55772e24de6e22f07fd00b535d20973cf5e98d4323bc360a4b108866bb6b"
+  },
+  "inspection": {
+    "member_count": 213,
+    "readable_avro_count": 213,
+    "alert_count": 213,
+    "unique_object_count": 212,
+    "corrupt_member_count": 0,
+    "eligibility": "eligible"
+  }
+}

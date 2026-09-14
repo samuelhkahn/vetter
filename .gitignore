@@ -1,2 +1,7 @@
 _docs/AGENTS.md
 .env
+/data/local/
+*.tar.gz
+*.avro
+*.parquet
+!tests/fixtures/**/*.avro
